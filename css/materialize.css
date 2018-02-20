@@ -9028,3 +9028,8 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
    .input-field .prefix.active {
      color: #000 !important;
    }
+
+       #map {
+        height: 400px;
+        width: 100%;
+       }

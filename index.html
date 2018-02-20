@@ -140,6 +140,11 @@
                                     <label for="icon_email">Correo</label>
                                 </div>
                                 <div class="input-field col s12">
+                                    <i class="material-icons prefix">announcement</i>
+                                    <input id="icon_prefix3" type="text" class="validate">
+                                    <label for="icon_prefix3">Asunto</label>
+                                </div>
+                                <div class="input-field col s12">
                                     <i class="material-icons prefix">mode_edit</i>
                                     <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
                                     <label for="icon_prefix2">Mensaje</label>
@@ -163,6 +168,24 @@
                         <li> 0414 - 459.37.08</li>
                     </ul>
                 </div>
+                <div class="col s12">
+                    <div id="map"></div>
+                    <script>
+                    function initMap() {
+                        var uluru = { lat: 10.020161, lng: -67.466191 };
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 15,
+                            center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                            position: uluru,
+                            map: map
+                        });
+                    }
+                    </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQX5uNV4ivmR6Kf0YeKhRgfKhs2HyStUQ&callback=initMap">
+                    </script>
+                </div>
             </div>
         </div>
         <div class="divider"></div>
@@ -173,32 +196,32 @@
                         <h4>Nuestro clientes</h4>
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col s2">
                     <div class="center-align">
                         <img src="https://www.noticiasaldiayalahora.co/wp-content/uploads/2015/11/Alimentos-Polar.jpg" class="responsive-img">
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col s2">
                     <div class="center-align">
                         <img src="https://www.noticiasaldiayalahora.co/wp-content/uploads/2015/11/Alimentos-Polar.jpg" class="responsive-img">
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col s2">
                     <div class="center-align">
                         <img src="https://www.noticiasaldiayalahora.co/wp-content/uploads/2015/11/Alimentos-Polar.jpg" class="responsive-img">
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col s2">
                     <div class="center-align">
                         <img src="https://www.noticiasaldiayalahora.co/wp-content/uploads/2015/11/Alimentos-Polar.jpg" class="responsive-img">
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col s2">
                     <div class="center-align">
                         <img src="https://www.noticiasaldiayalahora.co/wp-content/uploads/2015/11/Alimentos-Polar.jpg" class="responsive-img">
                     </div>
                 </div>
-                <div class="col s4">
+                <div class="col s2">
                     <div class="center-align">
                         <img src="https://www.noticiasaldiayalahora.co/wp-content/uploads/2015/11/Alimentos-Polar.jpg" class="responsive-img">
                     </div>
